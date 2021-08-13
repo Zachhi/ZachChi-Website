@@ -31,6 +31,10 @@ body {
 	*/
 }
 
+testing123 {
+	background: rgba(0, 0, 0, 0.9);
+}
+
 /*navigation*/
 #about-me{
 	padding: 20px; /*padding 20px looks best when we scroll to the #'s*/
@@ -175,9 +179,18 @@ hr {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	background-color: #000;
+	background-color: rgba(0,0,0,1);
 	color: rgb(255, 255, 255); /* was white */
 	overflow: hidden;
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .7)), url('../img/frontpic2.JPG');
+}
+@keyframes heroImgAnim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .hero h1 {
@@ -222,7 +235,7 @@ hr {
 .iconGit{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3s;
+	animation-delay: 8s;
 	animation-fill-mode: forwards;
 }
 .iconGit:hover{
@@ -231,7 +244,7 @@ hr {
 .iconLinked{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3.1s;
+	animation-delay: 8.1s;
 	animation-fill-mode: forwards;
 }
 .iconLinked:hover{
@@ -240,7 +253,7 @@ hr {
 .iconYoutube{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3.2s;
+	animation-delay: 8.2s;
 	animation-fill-mode: forwards;
 }
 .iconYoutube:hover{
@@ -249,7 +262,7 @@ hr {
 .iconMail{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3.3s;
+	animation-delay: 8.3s;
 	animation-fill-mode: forwards;
 }
 .iconMail:hover{
@@ -258,7 +271,7 @@ hr {
 .iconPhone{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3.4s;
+	animation-delay: 8.4s;
 	animation-fill-mode: forwards;
 }
 .iconPhone:hover{
@@ -267,7 +280,7 @@ hr {
 .iconText{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 3.5s;
+	animation-delay: 8.5s;
 	animation-fill-mode: forwards;
 }
 .iconText:hover{
@@ -296,7 +309,7 @@ hr {
 .downArrow{
 	opacity: 0;
 	animation: downArrowAnim 2s 1;
-	animation-delay: 3.4s;
+	animation-delay: 8.4s;
 	animation-fill-mode: forwards;
 	width: 45px;
 }
@@ -328,6 +341,9 @@ hr {
 	text-align: center; 
 	border-color: rgba(202, 202, 202, 0.5);
 	animation: lineAnim 5s 1;
+	animation-delay: 5s;
+	width: 0%;
+	animation-fill-mode: forwards;
 }
 @keyframes lineAnim {
 	0% {
@@ -350,7 +366,7 @@ hr {
 .textSubAnim1{
 	opacity: 0;
 	animation: textSubAnim1 4s 1;
-	animation-delay: 3s;
+	animation-delay: 8s;
 	animation-fill-mode: forwards;
 }
 @keyframes textSubAnim1 {
@@ -384,11 +400,17 @@ hr {
 /*main text animation*/
 
 .textMainAnim1 {
+	color: transparent;
 	position: relative;
 	animation: textMainAnim1 4s 1;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
 }
 .textMainAnim2 {
+	color: transparent;
     animation: textMainAnim2 5s 1;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
 }
 
 
@@ -407,6 +429,9 @@ hr {
 		letter-spacing: 8px;
 		margin-bottom: -40px;
 	}
+	100%{
+		color: white;
+	}
 }
 @keyframes textMainAnim2 {
 	0%{
@@ -415,9 +440,10 @@ hr {
 	70% {
 		color: transparent;
 	}
-
-
 	90% {
+		color: rgb(223, 223, 223);
+	}
+	100%{
 		color: rgb(223, 223, 223);
 	}
 }
@@ -649,4 +675,47 @@ footer li a{
 .fade-in {
 	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/*This is for our terminal text animation*/
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:1000px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:40%;
+  left:0;
+  right:0;
+  margin:auto;
+
+  animation: consoleAnim 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes consoleAnim {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
 }
