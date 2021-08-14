@@ -47,9 +47,9 @@ $(document).bind('scroll',function(e){
 
 // this is for our terminal animation text
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Ah.', 'Give me a sec...'], 
+consoleText([':)', 'Hi, I\'m Zach'], 
             'text',
-            ['rgba(202, 202, 202, 1);','rgba(202, 202, 202, 1);', 'rgba(207, 255, 253, 1);']);
+            ['rgba(138, 255, 169, 1)', 'rgba(255, 255, 255, 1);']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) 
@@ -62,7 +62,7 @@ function consoleText(words, id, colors) {
   var waiting = false;
   var target = document.getElementById(id)
   target.setAttribute('style', 'color:' + colors[0])
-  var typeSpeed = 70;
+  var typeSpeed = 160;
 
   window.setInterval(function() {
     if (letterCount === 0 && waiting === false) 
@@ -79,17 +79,17 @@ function consoleText(words, id, colors) {
         target.setAttribute('style', 'color:' + colors[0])
         letterCount += x;
         waiting = false;
-      }, 1000) //after sentence is deleted, this is the amount of time to wait before typing again
+      }, 1) //after sentence is deleted, this is the amount of time to wait before typing again
 
     } 
-    else if (letterCount === words[0].length + 1 && waiting === false && words[0] == 'Give me a sec...') 
+    else if (letterCount === words[0].length + 1 && waiting === false && words[0] == 'Hi, I\'m Zach') 
     {
       waiting = true;
       window.setTimeout(function() {
         x = -1;
         letterCount += x;
         waiting = false;
-      }, 2000) //after sentence is typed, this is amount of time to wait before deleting
+      }, 20000000) //after sentence is typed, this is amount of time to wait before deleting
     } 
     else if (letterCount === words[0].length + 1 && waiting === false) 
     {
@@ -98,7 +98,7 @@ function consoleText(words, id, colors) {
         x = -1;
         letterCount += x;
         waiting = false;
-      }, 1000) //after sentence is typed, this is amount of time to wait before deleting
+      }, 1) //after sentence is typed, this is amount of time to wait before deleting
     } 
     
     else if (waiting === false)
@@ -124,3 +124,9 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+
+
+
+/*FOR BAR CHART*/
+

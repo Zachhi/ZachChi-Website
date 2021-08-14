@@ -31,16 +31,17 @@
         <nav class="end-xs">
             <header class="fade-in"> <!--#808080 and #34F7E5-->
 
-            <ul>
-                <li><a class = textSubAnim1 href="#home" style="font-size: 15px; letter-spacing: 3px; margin-right: 30px;" >Home</a></li> 
-                <li><a class = textSubAnim1 href="#about-me" style="font-size: 15px; letter-spacing: 3px; margin-right: 30px; animation-delay: 8.4s ;" >About me</a></li> <!--Row at top right of links to other parts of website-->
-                <li><a class = textSubAnim1 href="#projects"style="font-size: 15px; letter-spacing: 3px;margin-right: 30px; animation-delay: 8.8s ;">Projects</a></li>
-                <li><a class = textSubAnim1 href="#resume"style="font-size: 15px; letter-spacing: 3px; margin-right: 30px; animation-delay: 9.2s ;">Resume</a></li>
-                <li><a class = textSubAnim1 href="#contact"style="font-size: 15px; letter-spacing: 3px;margin-right: 30px; animation-delay: 9.6s ;">Contact</a></li>
+            <ul id>
+                <li><a class = "textSubAnim1" href="#home" style="font-size: 15px; letter-spacing: 3px; margin-right: 30px;" >Home</a></li> 
+                <li><a class = "textSubAnim1" href="#about-me" style="font-size: 15px; letter-spacing: 3px; margin-right: 30px; animation-delay: 3.4s ;" >About me</a></li> <!--Row at top right of links to other parts of website-->
+                <li><a class = textSubAnim1 href="#projects"style="font-size: 15px; letter-spacing: 3px;margin-right: 30px; animation-delay: 3.8s ;">Projects</a></li>
+                <li><a class = textSubAnim1 href="#resume"style="font-size: 15px; letter-spacing: 3px; margin-right: 30px; animation-delay: 4.2s ;">Resume</a></li>
+                <li><a class = textSubAnim1 href="#contact"style="font-size: 15px; letter-spacing: 3px;margin-right: 30px; animation-delay: 4.6s ;">Contact</a></li>
             </ul>
             <hr class = "lineAnim">
         </nav>
     </div>
+    
     <!--Top Left Zach Chi-->
     <div class="navigation-bar flex middle-xs">
         <nav class = "start-xs" >
@@ -54,6 +55,7 @@
     
     <div class="hero flex middle-xs">
         <div class="hero-text ">
+
             <div class='console-container'><span id='text'>
             </span><div class='console-underscore' 
                 id='console'>&#95;
@@ -72,19 +74,19 @@
 <div class="wrapper " >
 
     <!--ABOUT ME-->
-    <div id = "about-me"> </div> <!--So we can scroll here when about me is clicked-->
+    <hr class = "lineAcross3">
+    <div id = "about-me">  <!--So we can scroll here when about me is clicked-->
     <main>
-        <section class="intro" style="margin: 50px"> <!--make margin 50 cuz it looks best-->
+        <section class="intro" style="margin: 50px;"> <!--make margin 50 cuz it looks best-->
             <div class="container">
                 <div class="row">
                     <div class="col-md">
-                        <h2 class="section-title">About Me</h2>
+                        <h2 class="section-title" style="color: #C22085;">&ltAbout&gt</h2>
                     </div>
                 </div>
                 <div class="row margin-bottom ">
                     <div class="col-md">
-                        <p class="highlight">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                        <p class="author">- John Doe</p>
+                        <p class="highlight"></p>
                     </div>
                     <div class="col-md">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -136,16 +138,16 @@
                 </div>
             </div>
         </section>
-
+    </div>
                 <!--PROJECTS-->
-                <hr/>
-                <div id = "projects"> </div>
+                <hr class = lineAcross>
+                <div id = "projects">
                 <section class="portfolio" style="margin: 50px">
                     <div class="container">
                         <div class="row center-xs">
                             <div class="col-md">
-                                <h2 class="section-title">Projects</h2>
-                                <p>This is what I have been up to</p>
+                                <h2 class="section-title">Recent Projects</h2>
+                                <p>This is what I have been up to. Check my <a class = textLink href="https://github.com/Zachhi">GitHub</a> to see the source code and other projects</p>
                             </div>
                         </div>
                     </div>
@@ -153,7 +155,7 @@
                         <div class="row margin-bottom-small">
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-1.jpg">
+                                    <img src="img/project-1.jpg" class="projectImage" >
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -165,7 +167,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-2.jpg">
+                                    <img src="img/project-2.jpg"class="projectImage">
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -177,7 +179,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-3.jpg">
+                                    <img src="img/project-3.jpg"class="projectImage">
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -191,7 +193,7 @@
                         <div class="row margin-bottom-small">
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-4.jpg">
+                                    <img src="img/project-4.jpg"class="projectImage">
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -203,7 +205,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-5.jpg">
+                                    <img src="img/project-5.jpg"class="projectImage">
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -215,7 +217,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="hover-outer-box">
-                                    <img src="img/project-6.jpg">
+                                    <img src="img/project-6.jpg"class="projectImage">
                                     <div class="hover-inner-box">
                                         <div class="hover-content">
                                             <h3>Projecttitle</h3>
@@ -227,102 +229,165 @@
                             </div>
                         </div>
                     </section>
-
+                </div>
         <!--RESUME-->
-        <hr/>
-        <div id = "resume"> </div>
+        <hr class = lineAcross2>
+        <div id = "resume">
         <section class="services" style="margin: 50px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 center-xs">
-                        <h2 class="section-title">Resume</h2>
-                    </div>
-                </div>
-                <div class="row icon-row">
-                    <div class="col-xs center-xs">
-                        <img src="img/001-achievement.svg" class="icon"><br/>
-                        Service 1
-                    </div>
-                    <div class="col-xs center-xs">
-                        <img src="img/002-pencil.svg" class="icon"><br/>
-                        Service 2
-                    </div>
-                    <div class="col-xs center-xs">
-                        <img src="img/003-idea.svg" class="icon"><br/>
-                        Service 3
-                    </div>
-                </div>
-                 <div class="row icon-row">
-                    <div class="col-xs center-xs">
-                        <img src="img/004-shopping-bag.svg" class="icon"><br/>
-                        Service 4
-                    </div>
-                    <div class="col-xs center-xs">
-                        <img src="img/005-fountain-pen.svg" class="icon"><br/>
-                        Service 5
-                    </div>
-                </div>
-                <div class="row margin-bottom ">
-                    <div class="col-md">
-                        <p class="highlight">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                        <p class="author">- John Doe</p>
-                    </div>
-                    <div class="col-md">
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    </div>
-                    <div class="col-md">
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                    </div>
-                </div>
+            <div class="col-md center-xs">
+                <h2 class="section-title">Resume</h2>
+                    <p><a class = textLink href = "img/testResume.pdf">Download here</a></p>
+
+
+                    <img src = "img/Resume/testResume.jpg" class="resume"> 
+
+                   <!--THIS IS THE BAR CHART-->
+
+                    <div class="skills" style="text-align: left;">
+                        <ul class="lines">
+                          <li class="line l--0">
+                            <span class="line__label title">
+                              Skill level:
+                            </span>
+                          </li>
+                          <li class="line l--25">
+                            <span class="line__label">
+                              Basics
+                            </span>
+                          </li>
+                          <li class="line l--50">
+                            <span class="line__label">
+                              Advanced
+                            </span>
+                          </li>
+                          <li class="line l--75">
+                            <span class="line__label">
+                              Seasoned
+                            </span>
+                          </li>
+                          <li class="line l--100">
+                            <span class="line__label">
+                              Expert
+                            </span>
+                          </li>
+                        </ul>
+                        
+                        <div class="charts">
+                          <div class="chart chart--dev">
+                            <span class="chart__title">Development</span>
+                            <ul class="chart--horiz">
+                              <li class="chart__bar" style="width: 90%;">
+                                <span class="chart__label">
+                                  C++
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 75%;">
+                                <span class="chart__label">
+                                  Java
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 70%;">
+                                <span class="chart__label">
+                                  Python
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 45%;">
+                                <span class="chart__label">
+                                  C
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 85%;">
+                                <span class="chart__label">
+                                 Html
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 85%;">
+                                <span class="chart__label">
+                                 CSS3 & CSS
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 45%;">
+                                <span class="chart__label">
+                                  JavaScript
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 15%;">
+                                <span class="chart__label">
+                                  Haskell
+                                </span>
+                              </li>
+                              <li class="chart__bar" style="width: 10%;">
+                                <span class="chart__label">
+                                  PHP
+                                </span>
+                              </li>
+
+                            </ul>
+                          </div>
+                          
+                          <div class="chart chart--prod">
+                            <span class="chart__title">Productivity</span>
+                            <ul class="chart--horiz">
+                            <li class="chart__bar" style="width: 85%;">
+                              <span class="chart__label">
+                                Git + Github
+                              </span>
+                            </li>
+                            <li class="chart__bar" style="width: 60%;">
+                              <span class="chart__label">
+                                Microsoft Office
+                              </span>
+                            </li>
+                          </ul>
+                          </div>
+                          
+                          <div class="chart chart--design">
+                            <span class="chart__title">Soft Skills</span>
+                            <ul class="chart--horiz">
+                            <li class="chart__bar" style="width: 85%;">
+                              <span class="chart__label">
+                                Communication
+                              </span>
+                            </li>
+                            <li class="chart__bar" style="width: 85%;">
+                              <span class="chart__label">
+                                Teamwork & Cooperation
+                              </span>
+                            </li>
+                            <li class="chart__bar" style="width: 100%;">
+                              <span class="chart__label">
+                                Patience
+                              </span>
+                            </li>
+                            <li class="chart__bar" style="width: 100%;">
+                              <span class="chart__label">
+                                Attention to Detail
+                              </span>
+                            </li>
+                            <li class="chart__bar" style="width: 90%;">
+                                <span class="chart__label">
+                                Innovation & Analysis
+                                </span>
+                              </li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    <!--THIS IS THE BAR CHART-->
+
             </div>
         </section>
+        </div>
 
-            <section class="blurbs" id="benefits">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md center-xs">
-                            <h2 class="section-title">Benefits</h2>
-                        </div>
-                    </div>
-                    <div class="row margin-bottom-small center-xs">
-                        <div class="col-md">
-                            <img src="img/001-achievement.svg" class="icon ">
-                            <h3>Benefit 1</h3>
-                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
-                        </div>
-                        <div class="col-md">
-                            <img src="img/002-pencil.svg" class="icon">
-                            <h3>Benefit 2</h3>
-                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
-                        </div>
-                        <div class="col-md">
-                            <img src="img/003-idea.svg" class="icon">
-                            <h3>Benefit 3</h3>
-                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
-                        </div>
-                    </div>
-                    <div class="row center-xs">
-                        <div class="col-md">
-                            <img src="img/004-shopping-bag.svg" class="icon">
-                            <h3>Benefit 4</h3>
-                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
-                        </div>
-                        <div class="col-md">
-                            <img src="img/005-fountain-pen.svg" class="icon">
-                            <h3>Benefit 5</h3>
-                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
 
 
             <!--CONTACT-->
-            <div id = "contact"> </div>
+            <div id = "contact"> 
             <section class="contact"style="margin: 0px">
                 <div class="container">
-                    <hr class = "lineAnim" style="padding: 25px;">
+                    <hr class = "lineAnim">
                     <div class="row">
                         <div class="col-md center-xs">
                             <h2 class="section-title">Contact</h2>
@@ -344,7 +409,7 @@
 
                 </div>
             </section>
-
+        </div>
 
         </main>
     </div>
@@ -353,9 +418,7 @@
     <!--FOOTER-->
     <div class="row secondary-footer">
 
-         <p style="color: black; margin-right: 10px;">Zachary Chi © 2021.</p>      
-         <p style="color: black; margin-right: 10px;">|</p>           
-         <p><a href = "mailto: chi.zachary@gmail.com" class = "textFooter">chi.zachary@gmail.com</a></p> 
+         <p style="color: rgb(141, 141, 141); margin-right: 10px;">Zachary Chi © 2021. All Rights Reserved.</p>      
      <div class="col-md end-md">
          <p><a href="#">Imprint</a> | <a href="#">Data Protection</a></p>                
      </div>

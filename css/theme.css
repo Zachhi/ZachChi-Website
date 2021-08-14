@@ -21,9 +21,10 @@ body {
 	/*
 	color: rgb(61, 61, 61); 
 	*/
-	color: rgb(223, 223, 223);
-	background: linear-gradient(red, yellow);
-	background: -webkit-repeating-linear-gradient(rgb(190, 190, 190), rgba(0, 0, 0));
+	color: rgb(73, 73, 73);
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	/*background: -webkit-repeating-linear-gradient(rgb(145, 145, 145), rgba(0, 0, 0));*/
 
 	/*
 		color: rgb(61, 61, 61); 
@@ -31,23 +32,65 @@ body {
 	*/
 }
 
+
 testing123 {
 	background: rgba(0, 0, 0, 0.9);
 }
 
+.lineAcross {
+	height: 20px;
+	border: none;
+	color: rgba(0, 0, 0, .205);
+	background-color:rgba(0, 0, 0, 0.205);
+	margin-bottom: 0px;
+	background: -webkit-repeating-linear-gradient(rgba(255, 255, 255, 0.3), rgba(151, 151, 151, 0.205));
+}
+.lineAcross2 {
+	height: 20px;
+	border: none;
+	color: rgba(0, 0, 0, .205);
+	background-color:rgba(0, 0, 0, 0.205);
+	margin-top: 0px;
+    background: -webkit-repeating-linear-gradient(rgba(151, 151, 151, 0.205), rgba(255, 255, 255, 0.3));
+}
+.lineAcross3 {
+	height: 20px;
+	border: none;
+	color: rgba(0, 0, 0, .205);
+	background-color:rgba(0, 0, 0, 0.205);
+	margin-top: 0px;
+    background: -webkit-repeating-linear-gradient(rgba(58, 58, 58, 0.562), rgba(255, 255, 255, 1));
+}
+
 /*navigation*/
 #about-me{
-	padding: 20px; /*padding 20px looks best when we scroll to the #'s*/
+	padding: 25px; /*padding 20px looks best when we scroll to the #'s*/
+	background-color: rgb(255, 255, 255);
+
+	/*
+	background-color: rgb(13, 13, 13);
+	background: -webkit-repeating-linear-gradient(rgba(0,0,0, 0.95), rgba(0,0,0, 0.9));
+	color: #2D9687;
+	color: #C22085;
+	*/
+	/*color: rgb(177, 177, 177);*/
+
+}
+#projects{
+	padding: 25px;
+	background-color: rgb(245, 245, 245);
 }
 #resume{
 	padding: 20px;
+	background: -webkit-repeating-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
 }
-#projects{
-	padding: 20px;
-}
+
 #contact{
 	padding: 20px;
+	background: black
 }
+
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -138,7 +181,7 @@ hr {
 
 .section-title {
 	margin-bottom: 70px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 
@@ -155,6 +198,12 @@ hr {
 	max-width: 30px;
 	display: inline-block;
 	padding: 1rem;
+}
+.navigation-bar .active{
+	color: #1EAEDB;
+}
+.active{
+	color:rgb(66, 255, 255)
 }
 
 .navigation-bar nav{
@@ -235,7 +284,7 @@ hr {
 .iconGit{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8s;
+	animation-delay: 3s;
 	animation-fill-mode: forwards;
 }
 .iconGit:hover{
@@ -244,7 +293,7 @@ hr {
 .iconLinked{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8.1s;
+	animation-delay: 3.1s;
 	animation-fill-mode: forwards;
 }
 .iconLinked:hover{
@@ -253,7 +302,7 @@ hr {
 .iconYoutube{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8.2s;
+	animation-delay: 3.2s;
 	animation-fill-mode: forwards;
 }
 .iconYoutube:hover{
@@ -262,7 +311,7 @@ hr {
 .iconMail{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8.3s;
+	animation-delay: 3.3s;
 	animation-fill-mode: forwards;
 }
 .iconMail:hover{
@@ -271,7 +320,7 @@ hr {
 .iconPhone{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8.4s;
+	animation-delay: 3.4s;
 	animation-fill-mode: forwards;
 }
 .iconPhone:hover{
@@ -280,7 +329,7 @@ hr {
 .iconText{
 	opacity: 0;
 	animation: socialAnim1 2s 1;
-	animation-delay: 8.5s;
+	animation-delay: 3.5s;
 	animation-fill-mode: forwards;
 }
 .iconText:hover{
@@ -309,7 +358,7 @@ hr {
 .downArrow{
 	opacity: 0;
 	animation: downArrowAnim 2s 1;
-	animation-delay: 8.4s;
+	animation-delay: 3.4s;
 	animation-fill-mode: forwards;
 	width: 45px;
 }
@@ -341,7 +390,7 @@ hr {
 	text-align: center; 
 	border-color: rgba(202, 202, 202, 0.5);
 	animation: lineAnim 5s 1;
-	animation-delay: 5s;
+	animation-delay: 0s;
 	width: 0%;
 	animation-fill-mode: forwards;
 }
@@ -366,7 +415,7 @@ hr {
 .textSubAnim1{
 	opacity: 0;
 	animation: textSubAnim1 4s 1;
-	animation-delay: 8s;
+	animation-delay: 3s;
 	animation-fill-mode: forwards;
 }
 @keyframes textSubAnim1 {
@@ -403,20 +452,20 @@ hr {
 	color: transparent;
 	position: relative;
 	animation: textMainAnim1 4s 1;
-	animation-delay: 5s;
+	animation-delay: 0s;
 	animation-fill-mode: forwards;
 }
 .textMainAnim2 {
 	color: transparent;
     animation: textMainAnim2 5s 1;
-	animation-delay: 5s;
+	animation-delay: 0s;
 	animation-fill-mode: forwards;
 }
 
 
 @keyframes textMainAnim1 {
 	0% {
-		color: black;
+		color: transparent;
 		margin-bottom: -40px;
 	}
 
@@ -430,7 +479,7 @@ hr {
 		margin-bottom: -40px;
 	}
 	100%{
-		color: white;
+		color: transparent;
 	}
 }
 @keyframes textMainAnim2 {
@@ -450,6 +499,7 @@ hr {
 
 
 .hover-outer-box {
+	border-radius: 15%;
 	position: relative;
 	display: flex;
 	align-content: stretch;
@@ -457,6 +507,7 @@ hr {
 }
 
 .hover-outer-box .hover-inner-box {
+	border-radius: 15%;
 	background: rgba(0, 0, 0, 0.9);
 	height: 100%;
 	width: 100%;
@@ -472,14 +523,19 @@ hr {
 }
 
 .hover-outer-box:hover .hover-inner-box {
+	border-radius: 15%;
 	opacity: .9;
 	transition: opacity .5s;
 }
 
 .hover-outer-box .hover-inner-box .hover-content{
+	border-radius: 15%;
 	text-align: center;
 	width: 100%;
 	padding: 1rem;
+}
+.projectImage{
+	border-radius: 15%;
 }
 
 
@@ -613,7 +669,7 @@ footer li a{
 
 
 .secondary-footer {
-	background-color: #e1e0e0;
+	background-color: #050505;
 	padding: 0.5rem;
 	margin: 0 auto;
 }
@@ -626,7 +682,7 @@ footer li a{
 
 .secondary-footer a{
 	text-decoration:  none;
-	color: #000;
+	color: rgb(77, 77, 77);
 }
 
 
@@ -671,6 +727,10 @@ footer li a{
 	}
 }
 
+.resume{
+	width: auto;
+}
+
 
 .fade-in {
 	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -685,37 +745,224 @@ footer li a{
 }
 .console-container {
  
-  font-family:Khula;
-  font-size:4em;
-  text-align:center;
-  height:200px;
-  width:1000px;
-  display:block;
-  position:absolute;
-  color:white;
-  top:0;
-  bottom:40%;
-  left:0;
-  right:0;
-  margin:auto;
+  font-family:Raleway;
+  font-size:70px;
+  letter-spacing: 5px;
+  text-align: center;
+  height:500px;
+  width:800px;
+  display:inline-flexbox;
+  color:rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-47.5%, -26.5%);
 
-  animation: consoleAnim 3s 1;
+
+
+
+  animation: consoleAnim1 4s 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 0s;
+  
 }
 
-@keyframes consoleAnim {
+@keyframes consoleAnim1 {
 	0% {
-		opacity: 1;
+
+		transform: translate(-47.5%, -22.5%);	
 	}
-	100% {
-		opacity: 0;
+
+	30% {
+		transform: translate(-47.5%, -22.5%);
+	}
+
+	85% {
+		transform: translate(-47.5%, -22.5%);
+
+	}
+	100%{
+
+		color: rgb(255, 255, 255);
 	}
 }
 
 .console-underscore {
    display:inline-block;
   position:relative;
-  top:-0.14em;
+  top:0em;
   left:10px;
 }
+
+.textLink{
+	color: rgb(73, 73, 73);
+}
+.textLink:hover{
+	color: rgb(215, 81, 248);
+}
+/*FOR THE BAR CHART*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.body2 {
+	margin: 20px 0 40px;
+	font-family: "Open Sans", sans-serif;
+	color: #949494;
+}
+ .skills {
+	 width: 85%;
+	 height: 50em;
+	 margin: auto;
+	 position: relative;
+	 margin-bottom: 150px;
+	 margin-top: 100px;
+	 letter-spacing: 3px;
+}
+ .lines {
+	 height: 100%;
+	 position: relative;
+	 list-style-type: none;
+}
+ .line {
+	 height: inherit;
+	 width: 1px;
+	 position: absolute;
+	 background: rgba(0, 0, 0, 0); /*color of lines*/
+}
+ .line.l--0 {
+	 left: 0;
+}
+ .line.l--25 {
+	 left: 25%;
+}
+ .line.l--50 {
+	 left: 50%;
+}
+ .line.l--75 {
+	 left: 75%;
+}
+ .line.l--100 {
+	 left: calc(100% - 1px);
+}
+ .line__label {
+	 display: block;
+	 width: 100px;
+	 text-align: center;
+	 position: absolute;
+	 bottom: -20px;
+	 right: -50px; /*color of skill levels*/
+	 color: #686868;
+}
+ .line__label.title {
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 list-style-type: none;
+	 color: #757575; /*color of skill levels*/
+	 width: 135px;
+}
+ .charts {
+	 width: 100%;
+	 height: 100%;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 z-index: 10;
+	 color: #d6d6d6; /*color of titles*/
+}
+ .chart:not(:first-child) {
+	 margin-top: 0px;
+}
+ .chart__title {
+	 display: block;
+	 margin: 0 0 10px;
+
+	 opacity: 0;
+	 animation: 1s anim-lightspeed-in ease forwards;
+}
+ .chart--prod .chart__title {
+	 animation-delay: 3.3s;
+}
+ .chart--design .chart__title {
+	 animation-delay: 4.5s;
+}
+ .chart--horiz {
+	 overflow: hidden;
+}
+ .chart__bar {
+	 height: 27px;
+	 margin-bottom: 10px;
+	 margin-left: -2%;
+	 background: linear-gradient(to left, rgb(35, 255, 64), rgb(63, 249, 255));
+	 border-top-right-radius: 4px;
+	 border-bottom-right-radius: 4px;
+	 opacity: 0;
+	 animation: 1s anim-lightspeed-in ease forwards;
+
+}
+
+ .chart--dev .chart__bar:nth-of-type(11) {
+	 animation-delay: 2.7s;
+}
+ .chart--dev .chart__bar:nth-of-type(10) {
+	 animation-delay: 2.5s;
+}
+ .chart--dev .chart__bar:nth-of-type(9) {
+	 animation-delay: 2.3s;
+}
+ .chart--dev .chart__bar:nth-of-type(8) {
+	 animation-delay: 2.1s;
+}
+ .chart--dev .chart__bar:nth-of-type(7) {
+	 animation-delay: 1.9s;
+}
+ .chart--dev .chart__bar:nth-of-type(6) {
+	 animation-delay: 1.7s;
+}
+ .chart--dev .chart__bar:nth-of-type(5) {
+	 animation-delay: 1.5s;
+}
+ .chart--dev .chart__bar:nth-of-type(4) {
+	 animation-delay: 1.3s;
+}
+ .chart--dev .chart__bar:nth-of-type(3) {
+	 animation-delay: 1.1s;
+}
+ .chart--dev .chart__bar:nth-of-type(2) {
+	 animation-delay: 0.9s;
+}
+ .chart--dev .chart__bar:nth-of-type(1) {
+	 animation-delay: 0.7s;
+}
+ .chart--prod .chart__bar:nth-of-type(2) {
+	 animation-delay: 4.2s;
+}
+ .chart--prod .chart__bar:nth-of-type(1) {
+	 animation-delay: 4s;
+}
+ .chart--design .chart__bar:nth-of-type(4) {
+	 animation-delay: 5.8s;
+}
+ .chart--design .chart__bar:nth-of-type(3) {
+	 animation-delay: 5.6s;
+}
+ .chart--design .chart__bar:nth-of-type(2) {
+	 animation-delay: 5.4s;
+}
+ .chart--design .chart__bar:nth-of-type(1) {
+	 animation-delay: 5.2s;
+}
+ .chart__label {
+	 padding-left: 10px;
+	 line-height: 27px;
+	 font-size: 15px;
+	 color: rgb(36, 36, 36); /*color o things in bar*/
+}
+ @keyframes anim-lightspeed-in {
+	 0% {
+		 transform: translateX(-200%);
+		 opacity: 1;
+	}
+	 100% {
+		 transform: translateX(0);
+		 opacity: 1;
+	}
+}
+
