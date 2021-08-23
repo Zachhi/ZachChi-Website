@@ -25,6 +25,7 @@ $( document ).ready(function() {
 });
 
 //this is for changing colors on scroll. May not use tho
+/*
 $(document).bind('scroll',function(e){
     $('txtHover').each(function(){
         if ($(this).offset().top < window.pageYOffset + 10 && $(this).offset().top + $(this).height() > window.pageYOffset + 10){
@@ -44,12 +45,12 @@ $(document).bind('scroll',function(e){
         }
     });
 });
-
+*/
 // this is for our terminal animation text
 // function([string1, string2],target id,[color1,color2])    
 consoleText([':)', 'Hi, I\'m Zach'], 
             'text',
-            ['rgba(138, 255, 169, 1)', 'rgba(255, 255, 255, 1);']);
+            ['rgba(255, 255, 255, .5)', 'rgba(255, 255, 255, 1);']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) 
@@ -128,5 +129,14 @@ function consoleText(words, id, colors) {
 
 
 
-/*FOR BAR CHART*/
+/*FOR PLAYING VIDEO ON HOVER*/
+var figure = $(".hover-outer-box").hover( hoverVideo, hideVideo );
+function hideVideo(e) {
+  $('video', this).get(0).play(); 
+}
+function hoverVideo(e) {  
+    $('video', this).get(0).pause(); 
+}
+
+
 
