@@ -2,7 +2,7 @@
 My personal website. Fully functional and resposive with every device
 
 
-Website here
+Website here:
 https://www.zachchi.com
 
 # Demo
