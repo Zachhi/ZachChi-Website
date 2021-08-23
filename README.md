@@ -3,7 +3,7 @@ My personal website. Fully functional and resposive with every device
 
 # Demo
 
-![Demo](https://github.com/Zachhi/FlockingBoids-VS/blob/master/boidsDemo.gif)
+![Demo](https://github.com/Zachhi/ZachChi-Website/blob/master/responsiveDemo.gif)
 
 Website here
 https://www.zachchi.com
