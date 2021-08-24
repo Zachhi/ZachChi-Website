@@ -5,7 +5,7 @@ My personal website. Fully functional and resposive with every device
 Website here:
 https://www.zachchi.com
 
-# Demo
+# Responsive Demo
 
 ![Demo](https://github.com/Zachhi/ZachChi-Website/blob/master/responsiveDemo.gif)
 
