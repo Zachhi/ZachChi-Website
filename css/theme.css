@@ -1609,7 +1609,9 @@
 		margin-left: 0%; 
 		margin-right: 0%;
 	}
-	
+	.mobilePendulum{
+		font-size: 11px;
+	}
 	.lineAcross {
 		height: 30px;
 		border: none;
