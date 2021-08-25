@@ -1361,7 +1361,6 @@
 	}
 	
 	body {
-		transition: all .3s;
 		overflow-x: hidden;
 		font-size: .9em; /* currently ems cause chrome bug misinterpreting rems on body element */
 		line-height: 1.6;
