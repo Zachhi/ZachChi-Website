@@ -1851,7 +1851,7 @@
 
 	@media only screen and (max-height: 653px) and (max-width: 280px) {
 		.mobileHelp{
-			margin-bottom: -100px;
+			margin-bottom: 0px;
 		}
 		.mobileHelpContainer{
 			margin-top: 100px;
@@ -1860,20 +1860,20 @@
 	}
 	@media only screen and (max-height: 570px)
 	{	.mobileHelp{
-		margin-bottom: 0px;
+		margin-bottom: -50px;
 	}
 	.mobileHelpContainer{
-		margin-top: -50px;
+		margin-top: 30px;
 	}
 
 	}
 	@media only screen and (min-height: 571px)
 	{
 		.mobileHelp{
-			margin-top: 0px;
+			margin-top: 60px;
 		}
 		.mobileHelpContainer{
-			margin-top:0px;
+			margin-top:30px;
 		}
 }
 	
@@ -2705,7 +2705,7 @@
 		  position: absolute;
 		  left: 50%;
 		  top: 50%;
-		  transform: translate(-47.5%, -15%);
+		  transform: translate(-47.5%, -44.5%);
 		
 		
 		
