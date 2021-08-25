@@ -245,9 +245,9 @@
 	}
 	
 	button.light {
-		background-color: rgb(0, 0, 0);
-		color: rgb(82, 82, 82);
-		border-color: rgba(139, 139, 139, 0.226);
+		background-color: rgb(20, 20, 20);
+		color: rgb(255, 255, 255);
+		border-color: rgb(99, 99, 99);
 	}
 	
 	button.light:hover, button.light:focus {
@@ -1385,6 +1385,7 @@
 	}
 	.onlyMobile{
 		font-size: 7px;
+		margin-bottom: -15px;
 	}
 	.responsiveAbout{
 		margin-left: 0px; 
@@ -1805,9 +1806,9 @@
 	}
 	
 	button.light {
-		background-color: rgb(0, 0, 0);
-		color: rgb(82, 82, 82);
-		border-color: rgba(139, 139, 139, 0.226);
+		background-color: rgb(20, 20, 20);
+		color: rgb(255, 255, 255);
+		border-color: rgb(99, 99, 99);
 	}
 	
 	button.light:hover, button.light:focus {
