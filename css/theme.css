@@ -1389,7 +1389,7 @@
 	@media only screen and (max-width: 500px)
 	{
 	.homeIcons{
-		width: 15px; 
+		width: 0px; 
 		float: left; 
 		margin-left: 15px;
 	}
@@ -1854,16 +1854,16 @@
 			margin-bottom: -100px;
 		}
 		.mobileHelpContainer{
-			margin-bottom: -100px;
+			margin-top: 100px;
 			
 		}
 	}
 	@media only screen and (max-height: 570px)
 	{	.mobileHelp{
-		margin-bottom: -150px;
+		margin-bottom: 0px;
 	}
 	.mobileHelpContainer{
-		margin-top: 30px;
+		margin-top: -50px;
 	}
 
 	}
