@@ -431,7 +431,7 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
-		margin-top: 70px;
+		padding-top: 70px;
 		width: 25px;
 	}
 	.iconGit:hover{
@@ -2146,13 +2146,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
-		padding-top: 260px;
+		padding-top: 300px;
 		width: 25px;
 	}
-	.iconGit:hover{
-		width: 25px;
-		content: url('../img/socials/githubHov.svg');
-	}
+
 	.iconLinked{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
@@ -2160,10 +2157,7 @@
 		animation-fill-mode: forwards;
 		width: 25px;
 	}
-	.iconLinked:hover{
-		width: 25px;
-		content: url('../img/socials/linkedinHov.svg');
-	}
+
 	.iconYoutube{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
@@ -2171,10 +2165,7 @@
 		animation-fill-mode: forwards;
 		width: 25px;
 	}
-	.iconYoutube:hover{
-		width: 25px;
-		content: url('../img/socials/youtubeHov.svg');
-	}
+
 	.iconMail{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
@@ -2182,10 +2173,7 @@
 		animation-fill-mode: forwards;
 		width: 25px;
 	}
-	.iconMail:hover{
-		width: 25px;
-		content: url('../img/socials/mailHov.svg');
-	}
+
 	.iconPhone{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
@@ -2193,10 +2181,7 @@
 		animation-fill-mode: forwards;
 		width: 25px;
 	}
-	.iconPhone:hover{
-		width: 25px;
-		content: url('../img/socials/phoneHov.svg');
-	}
+
 	.iconText{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
@@ -2204,29 +2189,9 @@
 		animation-fill-mode: forwards;
 		width: 25px;
 	}
-	.iconText:hover{
-		width: 25px;
-		content: url('../img/socials/textHov.svg');
-	}
+
 	
-	.iconGitWhite:hover{
-		content: url('../img/socials/githubWhite.svg');
-	}
-	.iconLinkedinWhite:hover{
-		content: url('../img/socials/linkedinWhite.svg');
-	}
-	.iconYoutubeWhite:hover{
-		content: url('../img/socials/youtubeWhite.svg');
-	}
-	.iconMailWhite:hover{
-		content: url('../img/socials/mailWhite.svg');
-	}
-	.iconPhoneWhite:hover{
-		content: url('../img/socials/phoneWhite.svg');
-	}
-	.iconTextWhite:hover{
-		content: url('../img/socials/textWhite.svg');
-	}
+
 	
 	.downArrow{
 		opacity: 0;
@@ -2279,9 +2244,7 @@
 		}
 	}
 	/* Hover */
-	.textSubAnim1:hover {
-		color: rgb(66, 255, 255);
-	}
+
 	/*top text animation*/
 	.textSubAnim1{
 		opacity: 0;
