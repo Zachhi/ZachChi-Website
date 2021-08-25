@@ -322,7 +322,21 @@
 		margin-right: 1rem;
 	}
 	
-	
+	@media only screen and (max-width: 1024px) and (min-height: 1360px) {
+	.hero {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-color: rgba(0,0,0,1);
+			color: rgb(255, 255, 255); /* was white */
+			overflow: hidden;
+			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/frontPicIPad.jpg');
+		
+		}	
+	}
+	@media only screen and (min-width: 1025px)
+	{
 	.hero {
 		background-position: center;
 		background-repeat: no-repeat;
@@ -331,9 +345,11 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/me/meWalkingBlur.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/frontPicDesk.jpg');
 	
 	}
+}
+
 	@keyframes heroImgAnim {
 		0% {
 			opacity: 0;
@@ -473,6 +489,9 @@
 	.iconGitWhite:hover{
 		content: url('../img/socials/githubWhite.svg');
 	}
+	.iconGitWhite1:hover{
+		content: url('../img/socials/githubWhite.svg');
+	}
 	.iconLinkedinWhite{
 		width: 25px; 
 		margin: 15px;
@@ -480,9 +499,15 @@
 	.iconLinkedinWhite:hover{
 		content: url('../img/socials/linkedinWhite.svg');
 	}
+	.iconLinkedinWhite1:hover{
+		content: url('../img/socials/linkedinWhite.svg');
+	}
 	.iconYoutubeWhite{
 		width: 32px;
 		margin: 15px;
+	}
+	.iconYoutubeWhite1:hover{
+		content: url('../img/socials/youtubeWhite.svg');
 	}
 	.iconYoutubeWhite:hover{
 		content: url('../img/socials/youtubeWhite.svg');
@@ -495,6 +520,9 @@
 	.iconMailWhite:hover{
 		content: url('../img/socials/mailWhite.svg');
 	}
+	.iconMailWhite1:hover{
+		content: url('../img/socials/mailWhite.svg');
+	}
 	.iconPhoneWhite{
 		width: 25px; 
 		margin: 15px;
@@ -502,11 +530,17 @@
 	.iconPhoneWhite:hover{
 		content: url('../img/socials/phoneWhite.svg');
 	}
+	.iconPhoneWhite1:hover{
+		content: url('../img/socials/phoneWhite.svg');
+	}
 	.iconTextWhite{
 		width: 25px; 
 		margin: 15px;
 	}
 	.iconTextWhite:hover{
+		content: url('../img/socials/textWhite.svg');
+	}
+	.iconTextWhite1:hover{
 		content: url('../img/socials/textWhite.svg');
 	}
 	
@@ -1377,6 +1411,12 @@
 			font-size: 5px;
 		}
 	}
+	.mobileASML1{
+		font-size: 17px;
+	}
+	.mobileASML2{
+		font-size: 12px;
+	}
 	@media only screen and (min-width: 498px) and (max-width: 669px){
 		.navText{
 			font-size: 10px; 
@@ -1791,7 +1831,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/me/meWalkingBlur.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/me/frontPicMobile.jpg');
 	
 	}
 	@keyframes heroImgAnim {
@@ -2022,20 +2062,55 @@
 		margin: 0;
 		opacity: .9;
 	}
+	@media only screen and (max-height: 653px) and (max-width: 280px) {
+		.hero .hero-text {
+			padding: 0px; 
+			text-align: center;
+			margin-bottom: 110px;
+			width: 100%;
+			top: 50%;
+			transform: translate(0%, 30.5%);
 	
+		}
+		
+		.hero-text p {
+			margin: 0;
+			opacity: .7;
+		}
+	}
+	@media only screen and (max-height: 570px)
+	{
+		.hero .hero-text {
+			padding: 0px; 
+			text-align: center;
+			margin-bottom: 110px;
+			width: 100%;
+			top: 50%;
+			transform: translate(0%, 20.5%);
 	
+		}
+		
+		.hero-text p {
+			margin: 0;
+			opacity: .7;
+		}
+	}
+	@media only screen and (min-height: 571px)
+	{
 	.hero .hero-text {
 		padding: 0px; 
 		text-align: center;
 		margin-bottom: 110px;
 		width: 100%;
+
+
 	}
 	
 	.hero-text p {
 		margin: 0;
 		opacity: .7;
 	}
-	
+}
 	.highlight {
 		font-style: italic;
 	}
@@ -2281,7 +2356,7 @@
 		font-size: 110px
 	}
 }
-@media only screen and (min-width: 649px) 
+@media only screen and (min-width: 649px)  and (max-width: 700px)
 {
 	.textMainAnim1 {
 		color: transparent;
@@ -2289,7 +2364,18 @@
 		animation: textMainAnim1 4s 1;
 		animation-delay: 0s;
 		animation-fill-mode: forwards;
-		font-size: 135px
+		font-size: 115px
+	}
+}
+@media only screen and (min-width: 701px) 
+{
+	.textMainAnim1 {
+		color: transparent;
+		position: relative;
+		animation: textMainAnim1 4s 1;
+		animation-delay: 0s;
+		animation-fill-mode: forwards;
+		font-size: 130px
 	}
 }
 @keyframes textMainAnim1 {
@@ -2599,7 +2685,7 @@
 		  position: absolute;
 		  left: 50%;
 		  top: 50%;
-		  transform: translate(-47.5%, -44.5%);
+		  transform: translate(-47.5%, -15%);
 		
 		
 		
