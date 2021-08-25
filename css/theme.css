@@ -431,7 +431,7 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
-		padding-top: 70px;
+		padding-top: 80px;
 		width: 25px;
 	}
 	.iconGit:hover{
