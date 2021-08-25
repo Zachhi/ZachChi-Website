@@ -331,7 +331,7 @@
 			background-color: rgba(0,0,0,1);
 			color: rgb(255, 255, 255); /* was white */
 			overflow: hidden;
-			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/frontPicIPad.jpg');
+			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicIPad.jpg');
 		
 		}	
 	}
@@ -345,7 +345,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/meWalking.JPG');
+		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicDesk.JPG');
 	
 	}
 }
@@ -1831,7 +1831,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/me/frontPicMobile.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/Me/frontPicMobile.jpg');
 	
 	}
 	@keyframes heroImgAnim {
