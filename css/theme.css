@@ -1386,14 +1386,39 @@
 		margin-top: -15px;
 	}
 
+	@media only screen and (max-width: 500px)
+	{
 	.homeIcons{
-		width: 20px; 
+		width: 15px; 
 		float: left; 
 		margin-left: 15px;
 	}
+	.iconGit{
+		opacity: 0;
+		animation: socialAnim1 2s 1;
+		animation-delay: 3s;
+		animation-fill-mode: forwards;
+		padding-top: 240px;
+	}
+}
+@media only screen and (min-width: 501px)
+{
+.homeIcons{
+	width: 20px; 
+	float: left; 
+	margin-left: 15px;
+}
+.iconGit{
+	opacity: 0;
+	animation: socialAnim1 2s 1;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	padding-top: 280px;
+}
+}
 	@media only screen and (min-width: 670px) {
 		.navText{
-			font-size: 14px; 
+			font-size: 17px; 
 			letter-spacing: 2px; 
 			margin-right: 4px;
 			margin-bottom: -20px;
@@ -1428,7 +1453,7 @@
 	}
 	@media only screen and (min-width: 498px) and (max-width: 669px){
 		.navText{
-			font-size: 10px; 
+			font-size: 11px; 
 			letter-spacing: 2px; 
 			margin-right: 4px;
 			margin-bottom: -20px;
@@ -1457,8 +1482,8 @@
 	}
 	@media only screen and (min-width: 407px) and (max-width: 497px) {
 		.navText{
-			font-size: 8px; 
-			letter-spacing: 2px; 
+			font-size: 9px; 
+			letter-spacing: 1px; 
 			margin-right: 4px;
 			margin-bottom: -20px;
 		}
@@ -1468,7 +1493,7 @@
 			position: fixed;
 		}
 		.mainName {
-			margin-top: -8px;
+			margin-top: -10px;
 		}
 		.navNamePos{
 			padding-left: 10px; 
@@ -1486,18 +1511,18 @@
 		}
 	@media only screen and (min-width: 363px) and (max-width: 406px) {
 	.navText{
-		font-size: 6px; 
-		letter-spacing: 2px; 
-		margin-right: 4px;
+		font-size: 9px; 
+		letter-spacing: 1px; 
+		margin-right: 1px;
 		margin-bottom: -20px;
 	}
 	.navName{
-		font-size: 13px; 
-		letter-spacing: 4px; 
+		font-size: 11px; 
+		letter-spacing: 3px; 
 		position: fixed;
 	}
 	.mainName {
-		margin-top: -8px;
+		margin-top: -10px;
 	}
 	.navNamePos{
 		padding-left: 10px; 
@@ -1513,7 +1538,7 @@
 		font-size: 5px;
 	}
 	}
-	@media only screen and (max-width: 362px) {
+	@media only screen and (min-width: 300px) and (max-width: 362px) {
 		.onlySmall{
 			text-align: center;
 		}
@@ -1522,7 +1547,7 @@
 		}
 		.navText{
 
-			font-size: 8px; 
+			font-size: 10px; 
 			letter-spacing: 0px; 
 			margin-right: 3px;
 			margin-bottom: -20px;
@@ -1542,6 +1567,35 @@
 			font-size: 5px;
 		}
 		}
+	@media only screen and (max-width: 299px) {
+			.onlySmall{
+				text-align: center;
+			}
+			.onlySmall2{
+				margin-left: -15px;
+			}
+			.navText{
+	
+				font-size: 8px; 
+				letter-spacing: 0px; 
+				margin-right: 0px;
+				margin-bottom: -20px;
+			}
+			.navName{
+				font-size: 0px; 
+				letter-spacing: 0px; 
+				position: fixed;
+			}
+			.mobileProjectText1{
+				font-size: 11px;
+			}
+			.mobileProjectText2{
+				font-size: 8px;	
+			}
+			.mobileProjectText3{
+				font-size: 5px;
+			}
+			}
 
 	.projects{
 
@@ -1797,28 +1851,29 @@
 
 	@media only screen and (max-height: 653px) and (max-width: 280px) {
 		.mobileHelp{
-			margin-bottom: -120px;
+			margin-bottom: -100px;
 		}
 		.mobileHelpContainer{
-			margin-bottom: 0px;
+			margin-bottom: -100px;
+			
 		}
 	}
 	@media only screen and (max-height: 570px)
 	{	.mobileHelp{
-		margin-bottom: -300px;
+		margin-bottom: -150px;
 	}
 	.mobileHelpContainer{
-		margin-top: 100px;
+		margin-top: 30px;
 	}
 
 	}
 	@media only screen and (min-height: 571px)
 	{
 		.mobileHelp{
-			margin-top: 250px;
+			margin-top: 100px;
 		}
 		.mobileHelpContainer{
-			margin-top: 125px;
+			margin-top: 50px;
 		}
 }
 	
@@ -2138,21 +2193,12 @@
 	}
 	
 	/*SOCIALS*/
-	.iconGit{
-		opacity: 0;
-		animation: socialAnim1 2s 1;
-		animation-delay: 3s;
-		animation-fill-mode: forwards;
-		padding-top: 300px;
-		width: 25px;
-	}
 
 	.iconLinked{
 		opacity: 0;
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.1s;
 		animation-fill-mode: forwards;
-		width: 25px;
 	}
 
 	.iconYoutube{
@@ -2160,7 +2206,6 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.2s;
 		animation-fill-mode: forwards;
-		width: 25px;
 	}
 
 	.iconMail{
@@ -2168,7 +2213,6 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.3s;
 		animation-fill-mode: forwards;
-		width: 25px;
 	}
 
 	.iconPhone{
@@ -2176,7 +2220,6 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.4s;
 		animation-fill-mode: forwards;
-		width: 25px;
 	}
 
 	.iconText{
@@ -2184,7 +2227,6 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.5s;
 		animation-fill-mode: forwards;
-		width: 25px;
 	}
 
 	
