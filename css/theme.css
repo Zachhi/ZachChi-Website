@@ -1297,7 +1297,7 @@
 		/*behavior of innerbox when hovering*/
 		opacity: .7;
 		
-		transition: opacity .5s;
+		transition: opacity 1s;
 	}
 	
 	.hover-outer-box .hover-inner-box .hover-content{
@@ -3216,7 +3216,7 @@
 		/*behavior of innerbox when hovering*/
 		opacity: .7;
 		
-		transition: opacity .5s;
+		transition: opacity 1s;
 	}
 	
 	.hover-outer-box .hover-inner-box .hover-content{
