@@ -1861,10 +1861,10 @@
 	}
 	@media only screen and (max-height: 570px)
 	{	.mobileHelp{
-		margin-bottom: -50px;
+		margin-bottom: -30px;
 	}
 	.mobileHelpContainer{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	}
