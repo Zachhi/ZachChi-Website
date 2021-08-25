@@ -38,6 +38,9 @@
 		background-color: rgb(226, 226, 226);
 		*/
 	}
+	.onlyMobile{
+		font-size: 0px;
+	}
 	.mobileProjectText1{
 		font-size: 18px;
 	}
@@ -1379,6 +1382,9 @@
 			color: rgb(61, 61, 61); 
 		background-color: rgb(226, 226, 226);
 		*/
+	}
+	.onlyMobile{
+		font-size: 7px;
 	}
 	.responsiveAbout{
 		margin-left: 0px; 
