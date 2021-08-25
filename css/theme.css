@@ -331,7 +331,7 @@
 			background-color: rgba(0,0,0,1);
 			color: rgb(255, 255, 255); /* was white */
 			overflow: hidden;
-			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/frontPicIPad.jpg');
+			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicIPad.jpg');
 		
 		}	
 	}
@@ -345,7 +345,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/me/frontPicDesk.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicDesk.jpg');
 	
 	}
 }
@@ -431,9 +431,11 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
-		padding-top: 70px;
+		margin-top: 70px;
+		width: 25px;
 	}
 	.iconGit:hover{
+		width: 25px;
 		content: url('../img/socials/githubHov.svg');
 	}
 	.iconLinked{
@@ -441,8 +443,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.1s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconLinked:hover{
+		width: 25px;
 		content: url('../img/socials/linkedinHov.svg');
 	}
 	.iconYoutube{
@@ -450,8 +454,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.2s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconYoutube:hover{
+		width: 25px;
 		content: url('../img/socials/youtubeHov.svg');
 	}
 	.iconMail{
@@ -459,8 +465,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.3s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconMail:hover{
+		width: 25px;
 		content: url('../img/socials/mailHov.svg');
 	}
 	.iconPhone{
@@ -468,8 +476,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.4s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconPhone:hover{
+		width: 25px;
 		content: url('../img/socials/phoneHov.svg');
 	}
 	.iconText{
@@ -477,13 +487,15 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.5s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconText:hover{
+		width: 25px;
 		content: url('../img/socials/textHov.svg');
 	}
 	
 	.iconGitWhite{
-		width: 25px; 
+		width: 26px; 
 		margin: 15px;
 	}
 	.iconGitWhite:hover{
@@ -549,12 +561,9 @@
 		animation: downArrowAnim 2s 1;
 		animation-delay: 3.4s;
 		animation-fill-mode: forwards;
-		width: 45px;
 		margin: 25px;
 	}
-	.downArrow:hover{
-		content: url('../img/socials/downHov.svg');
-	}
+
 	
 	@keyframes downArrowAnim {
 		0% {
@@ -1831,7 +1840,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/me/frontPicMobile.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/Me/frontPicMobile.jpg');
 	
 	}
 	@keyframes heroImgAnim {
@@ -2138,8 +2147,10 @@
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
 		padding-top: 260px;
+		width: 25px;
 	}
 	.iconGit:hover{
+		width: 25px;
 		content: url('../img/socials/githubHov.svg');
 	}
 	.iconLinked{
@@ -2147,8 +2158,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.1s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconLinked:hover{
+		width: 25px;
 		content: url('../img/socials/linkedinHov.svg');
 	}
 	.iconYoutube{
@@ -2156,8 +2169,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.2s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconYoutube:hover{
+		width: 25px;
 		content: url('../img/socials/youtubeHov.svg');
 	}
 	.iconMail{
@@ -2165,8 +2180,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.3s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconMail:hover{
+		width: 25px;
 		content: url('../img/socials/mailHov.svg');
 	}
 	.iconPhone{
@@ -2174,8 +2191,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.4s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconPhone:hover{
+		width: 25px;
 		content: url('../img/socials/phoneHov.svg');
 	}
 	.iconText{
@@ -2183,8 +2202,10 @@
 		animation: socialAnim1 2s 1;
 		animation-delay: 3.5s;
 		animation-fill-mode: forwards;
+		width: 25px;
 	}
 	.iconText:hover{
+		width: 25px;
 		content: url('../img/socials/textHov.svg');
 	}
 	
@@ -2212,12 +2233,9 @@
 		animation: downArrowAnim 2s 1;
 		animation-delay: 3.4s;
 		animation-fill-mode: forwards;
-		width: 45px;
 		margin: 15px;
 	}
-	.downArrow:hover{
-		content: url('../img/socials/downHov.svg');
-	}
+
 	
 	@keyframes downArrowAnim {
 		0% {
