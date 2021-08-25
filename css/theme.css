@@ -1870,10 +1870,10 @@
 	@media only screen and (min-height: 571px)
 	{
 		.mobileHelp{
-			margin-top: 100px;
+			margin-top: 0px;
 		}
 		.mobileHelpContainer{
-			margin-top: 50px;
+			margin-top:0px;
 		}
 }
 	
