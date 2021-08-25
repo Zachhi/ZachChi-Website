@@ -2249,9 +2249,6 @@
 		animation-delay: 3s;
 		animation-fill-mode: forwards;
 	}
-	.textSubAnim1:hover {
-		color: rgb(66, 255, 255);
-	}
 	@keyframes textSubAnim1 {
 		0% {
 			opacity: 0;
