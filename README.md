@@ -3,7 +3,7 @@ My personal website. Fully functional and resposive with every device
 
 
 Website here:
-https://www.zachchi.com
+zacharychi.com
 
 # Responsive Demo
 
