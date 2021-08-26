@@ -334,7 +334,8 @@
 			background-color: rgba(0,0,0,1);
 			color: rgb(255, 255, 255); /* was white */
 			overflow: hidden;
-			background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicIPad.jpg');
+			background-image: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, .9) 70px, rgba(0, 0, 0, .5)), url('../img/Me/frontPicIPad.jpg');
+
 		
 		}	
 	}
@@ -348,7 +349,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/Me/frontPicDesk.jpg');
+		background-image: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, .9) 70px, rgba(0, 0, 0, .5)), url('../img/Me/frontPicDesk.jpg');
 	
 	}
 }
@@ -1933,7 +1934,7 @@
 		background-color: rgba(0,0,0,1);
 		color: rgb(255, 255, 255); /* was white */
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), url('../img/Me/frontPicMobile.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9) 50px , rgba(0, 0, 0, .5)), url('../img/Me/frontPicMobile.jpg');
 	
 	}
 	@keyframes heroImgAnim {
