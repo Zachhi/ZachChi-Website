@@ -79,7 +79,9 @@
 		margin-top: 30px; 
 
 	}
-	
+	.mobileASML2{
+		font-size: 13px;
+	}
 	.lineAcross {
 		height: 30px;
 		border: none;
