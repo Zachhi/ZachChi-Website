@@ -1547,6 +1547,9 @@
 	.mobileProjectText3{
 		font-size: 5px;
 	}
+	.mobilePendulum{
+		font-size: 12px;
+	}
 	}
 	@media only screen and (min-width: 300px) and (max-width: 362px) {
 		.onlySmall{
@@ -1575,6 +1578,9 @@
 		}
 		.mobileProjectText3{
 			font-size: 5px;
+		}
+		.mobilePendulum{
+			font-size: 11px;
 		}
 		}
 	@media only screen and (max-width: 299px) {
@@ -1605,6 +1611,9 @@
 			.mobileProjectText3{
 				font-size: 5px;
 			}
+			.mobilePendulum{
+				font-size: 10px;
+			}
 			}
 
 	.projects{
@@ -1613,6 +1622,9 @@
 		margin-right: 0%;
 	}
 	.mobilePendulum{
+		font-size: 11px;
+	}
+	.mobileServer {
 		font-size: 11px;
 	}
 	.lineAcross {
