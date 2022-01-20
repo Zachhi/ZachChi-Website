@@ -589,6 +589,12 @@
 		}
 	}
 	
+	.mobilePendulum{
+		font-size: 14px;
+	}
+	.mobileConcert{
+		font-size: 14px;
+	}
 	/*LINE ANIMATION*/
 	.lineAnim{
 		width: 97%; 
@@ -1036,7 +1042,7 @@
 	{
 		.skills {
 			width: 55%;
-			height: 40em;
+			height: 44em;
 	   
 			position: absolute;
 			margin-bottom: 25%;
@@ -1052,7 +1058,7 @@
 	{
 		.skills {
 			width: 95%;
-			height: 40em;
+			height: 44em;
 	   
 			position: absolute;
 			margin-bottom: 25%;
@@ -1550,6 +1556,9 @@
 	.mobilePendulum{
 		font-size: 12px;
 	}
+	.mobileConcert{
+		font-size: 11px;
+	}
 	}
 	@media only screen and (min-width: 300px) and (max-width: 362px) {
 		.onlySmall{
@@ -1580,7 +1589,10 @@
 			font-size: 5px;
 		}
 		.mobilePendulum{
-			font-size: 11px;
+			font-size: 10px;
+		}
+		.mobileConcert{
+			font-size: 10px;
 		}
 		}
 	@media only screen and (max-width: 299px) {
@@ -1612,7 +1624,10 @@
 				font-size: 5px;
 			}
 			.mobilePendulum{
-				font-size: 10px;
+				font-size: 8px;
+			}
+			.mobileConcert{
+				font-size: 8px;
 			}
 			}
 
@@ -1622,6 +1637,9 @@
 		margin-right: 0%;
 	}
 	.mobilePendulum{
+		font-size: 11px;
+	}
+	.mobileConcert{
 		font-size: 11px;
 	}
 	.mobileServer {
@@ -2871,7 +2889,7 @@
 
 		.skills {
 			width: 100%;
-			height: 26em;
+			height: 29em;
 	   
 			position: absolute;
 			margin-bottom: 25%;
